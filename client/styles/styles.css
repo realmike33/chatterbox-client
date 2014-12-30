@@ -6,7 +6,6 @@ body {
 }
 
 #main {
-    width: 500px;
     margin: auto;
     text-align: left;
     background: white;
@@ -46,18 +45,23 @@ body {
     line-height: 13px;
 }
 
-form {
-    padding: 20px;
-    padding-left: 0;
-    margin-bottom: 20px;
+.message{
+    list-style-type: none;
+    padding: 5px;
 }
-
-form input[type=text] {
+.userMsg{
     margin-right: 10px;
     width: 70%;
     font-size: 12px;
     padding: 5px;
+    transition: background-color 1s;
 }
+
+.userMsg:hover{
+    background-color: #B0BEC5;
+    transition: background-color 1s;
+}
+
 
 .chat {
     padding: 5px;
